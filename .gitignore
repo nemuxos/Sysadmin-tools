@@ -1,0 +1,37 @@
+ OS generated files #
+######################
+*/*.DS_Store
+*.DS_Store
+*/*.DS_Store?
+*.DS_Store?
+*/*._*
+*._*
+*/*.Spotlight-V100
+*.Spotlight-V100
+*/*.Trashes
+*.Trashes
+Icon?
+*/ehthumbs.db
+ehthumbs.db
+*/Thumbs.db
+Thumbs.db
+
+
+# SublimeText project files #
+#############################
+*/*.sublime-*
+*.sublime-*
+
+# Config Files #
+#############################
+
+application/config/config.php
+application/config/database.php
+
+# Uploads Directory #
+#####################
+uploads/*
+
+
+# Another files
+*.ipa
