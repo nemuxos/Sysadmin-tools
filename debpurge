@@ -1,0 +1,5 @@
+#!/bin/bash
+PACKAGES=$( dpkg --get-selections | grep deinstall |sed 's/deinstall//g')
+PACKAGESLIST=$(echo $PACKAGES)
+apt-get autoclean -y
+
